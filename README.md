@@ -24,4 +24,4 @@ Aplikasi Manajemen Makanan adalah aplikasi sederhana untuk mencatat dan mengelol
 1. Clone repositori ini ke mesin lokal Anda:
 
    ```bash
-   git clone https://github.com/username/repo-name.git
+   git clone https://github.com/RafifDwiPrayata/Pencatatan-Jadwal-Makan.git
