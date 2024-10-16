@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-image: url('https://asset.kompas.com/crops/_JNx4qMilh-DuimKD-U4lqCHikc=/0x0:1000x667/750x500/data/photo/2021/12/21/61c161511efb8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #343a40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 500px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #6c757d;
+}
+
+p {
+    margin-bottom: 30px;
+    color: #6c757d;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ffc107;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #e0a800;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 15px 0 5px;
+    font-weight: bold;
+    color: #495057;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"] {
+    padding: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus {
+    border-color: #6c757d;
+    box-shadow: 0 0 8px rgba(108, 117, 125, 0.3);
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #6c757d;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border: 2px solid black;
+}
+
+th {
+    background-color: #6c757d;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f3f5;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 14px 24px;
+    background-color: #ffc107;
+    color: #343a40;
+    text-decoration: none;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-button:hover {
+    background-color: #e0a800;
+    transform: translateY(-2px);
+}
+
+.delete-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #d9534f;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c9302c;
+    transform: translateY(-2px);
+}
+
+.edit-button, .delete-button {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
